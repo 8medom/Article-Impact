@@ -2,7 +2,7 @@ Data from BBC discussions, collected by Matus Medo (matus.medo@unifr.ch) from Se
 The data can be used for research. In that case, please cite https://arxiv.org/abs/2001.05955 in
 your work using this dataset. Please do not spread further without including this README file.
 
-The main file (BBC_discussions.dat) contains data about individual comments in sport discussions
+The main file (BBC-comments.dat) contains data about individual comments in sport discussions
 on the BBC website (main web, www.bbc.com/sport, and the sub-pages corresponding to individual
 sports such as www.bbc.com/sport/cricket). For each comment, we store to which news it belongs,
 who wrote it, which in the sequence of all comments (of the given news) it is, its exact time,
@@ -16,11 +16,11 @@ number of up- and down-votes. The comment time and author remain available.
 I assigned new unique IDs to news that are now numbered from 0. To make everyone's life easier,
 news are numbered by the first comment that they receive (I use that rather than the news
 publication date because we know the date AND time for the former, but only the date for the
-latter). File news-BBC_vs_ID.dat lists basic information (BBC ID, sport section, and title), for
-each of them. For example, news 0 with ID 42070352 corresponds to the section snooker and can be
-accessed online at www.bbc.com/sport/snooker/42070352.
+latter). File BBC-news.dat lists basic information (BBC ID, sport section, and title), for
+each of them. For example, news 0 with ID 42070352 is from section snooker. You can use this
+information to access the news online at www.bbc.com/sport/snooker/42070352.
 
-I also assigned new unique IDs to users who are now numbered from 0. File users-BBC_vs_ID.dat
-lists basic user information (BBC ID and name), even if it is unlikely to be really useful.
+I also assigned new unique IDs to users who are now numbered from 0. File BBC-users.dat lists
+basic user information (BBC ID and name), even if it is unlikely to be really useful.
 
 If you have any questions or spot some irregularities in the data, please let me know!
